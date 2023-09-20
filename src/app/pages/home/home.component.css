@@ -1,0 +1,12 @@
+.container__posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1.5rem 0 0 0;
+}
+
+.nav__menu {
+    display: flex;
+    justify-content: center;
+}
+
