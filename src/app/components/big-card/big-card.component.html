@@ -8,14 +8,14 @@
         </div>
         
         <div class="big-card__title">
-            <h2><a href="#">{{cardTitle}}</a></h2>
+            <h2><a [routerLink]="['content', id]">{{cardTitle}}</a></h2>
         </div>
     
     </header>
 
     <section class="big-card__description">
 
-        <p><a href="#">{{cardDescription}}</a></p>
+        <p><a [routerLink]="['content', id]">{{cardDescription}}</a></p>
         
     </section>
 </article>
