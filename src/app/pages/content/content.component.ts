@@ -8,7 +8,7 @@ import { dataFake } from 'src/app/data/dataFake';
 })
 export class ContentComponent implements OnInit {
   @Input()
-  photoCover:string = 'https://i.ytimg.com/vi/7qxsk3QGbWs/maxresdefault.jpg';
+  photoCover:string = '';
   @Input()
   photoCoverAlt:string ='';
   @Input()
